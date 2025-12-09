@@ -1,0 +1,152 @@
+html,
+body {
+  cursor: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #050816;
+  color: #f8f9fa;
+}
+
+/* Links */
+
+a {
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #22d3ee;
+}
+
+/* Navigatie */
+
+.navbar {
+  background-color: #050816;
+}
+
+.navbar-brand {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link {
+  text-transform: lowercase;
+  font-size: 0.9rem;
+  color: #cbd5f5;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #22d3ee;
+}
+
+/* Hero section */
+
+h1 {
+  color: #f9fafb;
+}
+
+h2 {
+  color: #9ca3af;
+}
+
+.lead {
+  color: #d1d5db;
+}
+
+/* Foto */
+
+img.rounded-circle {
+  border: 2px solid #22d3ee;
+}
+
+/* Footer */
+
+footer {
+  font-size: 0.8rem;
+}
+
+main section {
+  margin-bottom: 4rem;
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+aside {
+  margin-top: 3rem;
+}
+
+img.rounded-circle {
+  border: 2px solid #22d3ee;
+  margin-bottom: 1rem;
+}
+
+/* cursor effect */
+
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #22d3ee;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.08s ease-out;
+  z-index: 9999;
+}
+
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #22d3ee;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease-out;
+  z-index: 9998;
+}
+
+a,
+button {
+  cursor: none !important;
+}
+
+.project-card {
+  background-color: #0d1117;
+  border: 1px solid #1f2937;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: #22d3ee;
+}
+
+fieldset {
+  border-color: #1f2937;
+}
+
+legend {
+  color: #22d3ee;
+  font-weight: bold;
+}
+
+.project-card ul {
+  list-style: disc !important;
+  padding-left: 1.5rem !important;
+}
+
+.project-card li {
+  margin-bottom: 0.3rem;
+}
